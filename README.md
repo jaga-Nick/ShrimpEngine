@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/6523886/212556269-de5021f2-1fbb-42fc-9
 
 1.  リポジトリをクローンします。
     ```sh
-    git clone [https://github.com/kovalgek/GameEngine.git](https://github.com/kovalgek/GameEngine.git)
+    git clone git@github.com:jaga-Nick/ShrimpEngine.git
     ```
 2.  ルートディレクトリでスクリプトを実行します。
 3.  生成されたプロジェクトファイルをVisual Studio 2019で開きます。
