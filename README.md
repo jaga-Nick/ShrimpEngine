@@ -1,50 +1,45 @@
-<p align="center"><img src="assets/parelhoen.png" width="317" height="300"></p>
-Parelhoen is a guineafowl in Dutch. These birds are beautiful creatures that came from Africa. I knew a guineafowl that escaped from a farm and found a new home in a car parking. During the COVID pandemic, this bird always put a smile on my face. I named my game engine after it as a nod to its awesomeness. Long live Parelhoen, the brave little bird that brightened up my days!
+﻿<p align="center"><img src="assets/parelhoen.png" width="317" height="300"></p>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+
+## プロジェクトについて
 
 https://user-images.githubusercontent.com/6523886/212556269-de5021f2-1fbb-42fc-9c8d-89c1a612a29f.mp4
 
-This project is a rendering engine that is written in C++ 11 and using DirectX 12 as low-level graphics API. Additionally, I employed the [ImGui](https://github.com/ocornut/imgui) library to create a user interface for configuring various rendering features in real-time. Initially, I integrated the [EnTT](https://github.com/skypjack/entt) header-only library as an Entity-Component-System, but later decided to implement a simpler solution without it.
+このプロジェクトは、C++ 11で書かれたレンダリングエンジンで、低レベルグラフィックスAPIとしてDirectX 12を使用しています。さらに、[ImGui](https://github.com/ocornut/imgui)ライブラリを採用し、様々なレンダリング機能をリアルタイムで設定するためのユーザーインターフェースを作成しました。当初は、エンティティ・コンポーネント・システム（ECS）としてヘッダオンリーライブラリの[EnTT](https://github.com/skypjack/entt)を導入していましたが、後によりシンプルなソリューションを自前で実装することにしました。
 
-<!-- INSTALLATION -->
-## Installation
+## インストール
 
-I used CMake as a building tool. To run the project, do these steps:
+ビルドツールとしてCMakeを使用しました。プロジェクトを実行するには、以下の手順に従ってください。
 
-1. Clone the repo
-```sh
-   git clone https://github.com/kovalgek/GameEngine.git
-```
-2. Run these scripts in the root directory
-3. Open generated project file using Visual Studio 2019
+1.  リポジトリをクローンします。
+    ```sh
+    git clone [https://github.com/kovalgek/GameEngine.git](https://github.com/kovalgek/GameEngine.git)
+    ```
+2.  ルートディレクトリでスクリプトを実行します。
+3.  生成されたプロジェクトファイルをVisual Studio 2019で開きます。
 
-<!-- ROADMAP -->
-## Roadmap
+## ロードマップ
 
-- [x] 3d objects in custom format
-- [x] Fog
-- [x] Mirrors
-- [x] Light
-- [x] Shadow
-- [ ] Support `.obj` 3d file format
-- [ ] Network layer
-- [ ] Universal layer to support other rendering API like metal
+- [x] カスタムフォーマットの3Dオブジェクト
+- [x] フォグ（霧）
+- [x] ミラー（鏡面反射）
+- [x] ライト（光源）
+- [x] シャドウ（影）
+- [ ] `.obj` 3Dファイル形式のサポート
+- [ ] ネットワーク層
+- [ ] Metalのような他のレンダリングAPIをサポートするための汎用レイヤー
 
-<!-- SCHEMES -->
-## Schemes
+## スキーマ（図）
 
 
-#### DataFlow
+#### データフロー
 <img src="assets/ParelhoenDataFlow.png">
-It is a simplified dataflow scheme that shows what data and events drive the rendering.
+これは、どのデータやイベントがレンダリングを駆動するかを示す、簡略化されたデータフロー図です。
 
-#### Resources Scheme
+#### リソーススキーマ
 <img src="assets/ParelhoenDiagram.png">
-It is a detailed scheme showing how and at what stages data binds to the rendering pipeline.
+これは、データがどの段階でどのようにレンダリングパイプラインにバインドされるかを示す詳細な図です。
 
-<!-- Acknowledgments -->
-## Acknowledgments
+## 謝辞
 
-I found Frank Luna's book [Introduction to 3D Game Programming with DirectX 12](https://www.amazon.com/Introduction-3D-Game-Programming-DirectX/dp/1942270062) to be incredibly helpful in my development of this project. Instead of simply copying his examples, I aimed to create a game engine with a strong and well-designed architecture. Additionally, I found the experience of programming in C++ to be a refreshing change from my primary job, where I primarily work with Swift and Objective-C.
+Frank Luna氏の著書[『Introduction to 3D Game Programming with DirectX 12』](https://www.amazon.com/Introduction-3D-Game-Programming-DirectX/dp/1942270062)が、このプロジェクトの開発において非常に役立ちました。彼のサンプルを単にコピーするのではなく、堅牢で優れた設計のアーキテクチャを持つゲームエンジンを作成することを目指しました。また、普段の仕事では主にSwiftとObjective-Cを扱っているため、C++でのプログラミングは新鮮な体験でした。
