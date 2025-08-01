@@ -1,4 +1,4 @@
-﻿<p align="center"><img src="assets/parelhoen.png" width="317" height="300"></p>
+﻿
 
 
 ## プロジェクトについて
