@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/6523886/212556269-de5021f2-1fbb-42fc-9
 
 1.  リポジトリをクローンします。
     ```sh
-    git clone [https://github.com/kovalgek/GameEngine.git](https://github.com/kovalgek/GameEngine.git)
+    git clone git@github.com:jaga-Nick/ShrimpEngine.git
     ```
 2.  ルートディレクトリでスクリプトを実行します。
 3.  生成されたプロジェクトファイルをVisual Studio 2019で開きます。
@@ -42,4 +42,4 @@ https://user-images.githubusercontent.com/6523886/212556269-de5021f2-1fbb-42fc-9
 
 ## 謝辞
 
-Frank Luna氏の著書[『Introduction to 3D Game Programming with DirectX 12』](https://www.amazon.com/Introduction-3D-Game-Programming-DirectX/dp/1942270062)が、このプロジェクトの開発において非常に役立ちました。彼のサンプルを単にコピーするのではなく、堅牢で優れた設計のアーキテクチャを持つゲームエンジンを作成することを目指しました。また、普段の仕事では主にSwiftとObjective-Cを扱っているため、C++でのプログラミングは新鮮な体験でした。
+Frank Luna氏の著書[『Introduction to 3D Game Programming with DirectX 12』](https://www.amazon.com/Introduction-3D-Game-Programming-DirectX/dp/1942270062)が、このプロジェクトの開発において非常に役立ちました。彼のサンプルを単にコピーするのではなく、堅牢で優れた設計のアーキテクチャを持つゲームエンジンを作成することを目指しました。
